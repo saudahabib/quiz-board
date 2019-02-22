@@ -2,20 +2,30 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Qualfier Test</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <div class="container">
-      <h1>Afkaan Girls Computer Club</h1>
-      <h3>Javascript Qualifier Test</h3>
+      <div class="jumbotron">
+        <h1>Afkaan Girls Computer Club</h1>
+        <h2>Javascript Qualifier Test</h2>
 
-      <form id="test" name="test">
-        <h5>Instructions:</h5>
-        <ul>
-          <li>Answer the following Javascript questions by selecting one of the four choices provided under each question.</li>
-          <li>Fill in your full names and the date you took this test.</li>
-          <li>Good Luck!</li>
-        </ul>
+
+          <h4>Instructions:</h4>
+          <ul>
+            <li>Answer the following Javascript questions by selecting one of the four choices provided under each question.</li>
+            <li>Fill in your full names and the date you took this test.</li>
+            <li>Good Luck!</li>
+          </ul>
+      </div>
+
+        <form id="test" name="test">
+          <div class="credentials">
+            <input type="text" name="name" class="form-control" placeholder="Type your name here"><br>
+            <label for="test-date">Test-Date<input type="date" class="form-control" id="test-date"></label>
+          </div><br>
         <!-- question 1 -->
         <p>1. What is Javascript's official name?</p>
           <label ><input type="radio" name="ques1" value="EMCAscript">EMCAscript.</label><br>
@@ -31,31 +41,32 @@
         <label><input type="radio" name="ques2" value="to.Lowercase">.toLowercase</label><br>
 
         <!-- question 3 -->
-        <p>All of the following can be used to declare a variable except:</p>
+        <p>3. All of the following can be used to declare a variable except:</p>
         <label><input type="radio" name="ques3" value="var">var</label><br>
         <label><input type="radio" name="ques3" value="let">let</label><br>
         <label><input type="radio" name="ques3" value="const">const</label><br>
         <label><input type="radio" name="ques3" value="be">be</label>
 
         <!-- question 4 -->
-        <p>What does DOM stand for?</p>
+        <p>4. What does DOM stand for?</p>
         <label><input type="radio" name="ques4" value="A">Display Object Module</label><br>
         <label><input type="radio" name="ques4" value="B">Document Object Model</label><br>
         <label><input type="radio" name="ques4" value="C">Document Object Module</label><br>
         <label><input type="radio" name="ques4" value="D">Display Object Model</label>
 
         <!-- question 5 -->
-        <p>Where is the corrrect place to have a Javascript link?</p>
+        <p>5. Where is the corrrect place to have a Javascript link?</p>
         <label><input type="radio" name="ques5" value="A">Head</label><br>
         <label><input type="radio" name="ques5" value="B">Body</label><br>
         <label><input type="radio" name="ques5" value="C">Head or Body</label><br>
         <label><input type="radio" name="ques5" value="D">Head and Body</label><br>
 
-
-
-
-
+        <input type="button" name="button" value="Submit test" onclick="mark();">
       </form>
+
+      <div class="results">
+        
+      </div>
     </div>
   </body>
 </html>

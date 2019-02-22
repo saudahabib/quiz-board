@@ -1,10 +1,22 @@
 # Quiz Board Project
-### By Sauda Habib (22/02/2019)
+### Week 3 project at MPFT. The project is a quiz board which displays test questions for a school computer club. Questions are marked and results awarded respectively by the application. (22.09.2019)
+### By Sauda Habib
+
+
 #### Description
-Week 3 project at MPFT. The project is a quiz board which displays test questions for a school computer club. Questions are marked and results awarded respectively by the application.
+The applications sets out a set of multiple-choice questions for the students to answer. It then checks the clicked answers on radio buttons and awards points per question if the clicked box is in accordance with the specified answer. After the form containing the answered questions is submitted, the program awards points and calculates the user's percentage after which it gives a brief analysis of the student's performance.
 ##### Setup Instructions
 * Click on the fork button on the top right part of your screen.
 * Click on the green 'clone or download' button to copy the project on your PC
+
+#### Link to live site
+https://saudahabib.github.io/quiz-board/
+#### Technologies used
+* HTML
+* CSS and Bootstrap
+* Javascript and Jquery
+
+
 #### Behavior Driven Development(Specifications)
 | Behavior   | Input     | Output|
 | :------------- | :------------- |:---------------|
@@ -12,8 +24,7 @@ Week 3 project at MPFT. The project is a quiz board which displays test question
 | Award marks/question| right/wrong choice| award 20points/0points|
 |Calculate percentage| 4/5 right choices| award 80%|
 |Evaluate results| 80%| "Excellent performance"|
-#### Link to live site
-https://saudahabib.github.io/quiz-board/
+
 #### Contacts
 Please reach out to me at:
 * 0714828944 or

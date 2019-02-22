@@ -1,5 +1,7 @@
+alert(5);
 $(document).ready(function()  {
-  function(check) {
-    $(".results").text("Aren't you a loser");
-  }
+  $(".test").submit(function(event) {
+    event.preventDefault();
+    alert("yass queen!");
+  });
 });

@@ -32,11 +32,9 @@ $(document).ready(function()  {
        marks+=20;
        rights++;
      }
-    alert( "you have scored" +" "+marks+ "% with a total of" +" "+rights+" "+ "rights")
+    alert( "you have scored" +" "+marks+ "% with a total of" +" "+rights+" "+ "right questions")
 
   });
 
 
 });
-
-//awarding marks here//

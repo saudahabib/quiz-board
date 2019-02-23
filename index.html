@@ -13,7 +13,7 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Afkaan Girls Computer Club</h1>
+        <h1>Women in Tech Computer Club</h1>
         <h2>Javascript Qualifier Test</h2>
 
 
@@ -22,12 +22,13 @@
             <li>Answer the following Javascript questions by selecting one of the four choices provided under each question.</li>
             <li>Fill in your full names and the date you took this test.</li>
             <li>Good Luck!</li>
+            <li>Kindly fill in all questions. Each blank answer will cost you!</li>
           </ul>
       </div>
 
         <form class="test" name="test">
           <div class="credentials">
-            <input type="text" name="name" class="form-control" placeholder="Type your name here"><br>
+            <input type="text" name="name" class="form-control" placeholder="Type your name here" id="name"><br>
             <label for="test-date">Test-Date<input type="date" class="form-control" id="test-date"></label>
           </div><br>
         <!-- question 1 -->
@@ -68,8 +69,10 @@
         <input type="submit"  id="submit" name="button" value="Submit test">
       </form>
 
-      <div class="results">
-
+      <div class="final">
+        <p id="results"></p>
+        <img  id="image">
+        <p id="analysis"></p>
       </div>
     </div>
 

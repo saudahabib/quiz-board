@@ -32,9 +32,25 @@ $(document).ready(function()  {
        marks+=20;
        rights++;
      }
-    alert( "you have scored" +" "+marks+ "% with a total of" +" "+rights+" "+ "right questions")
+     //awarding marks begins here
+     var analysis;
+     if(marks>=80) {
+       analysis=0;
+     }
+     else if(marks<50) {
+       analysis=2;
+     }
 
+     else{
+       analysis=1;
+    };
+      var messages= ["See you in Javascript module 2", "You could do so much better", "Bruh what the hell?"]
+      var images=["you-go.gif", "images/better.gif", "images/really.gif"]
+
+          document.getElementById('results').innerHTML= "You got"+" "+marks+"% with a total of "+ rights+" "+"right questions out of 5"
+          document.getElementById('image').src= images[analysis]
+          document.getElementById('analysis').innerHTML= messages[analysis]
+
+
+    });
   });
-
-
-});

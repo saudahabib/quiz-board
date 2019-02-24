@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Trial</title>
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-3.3.1.js"></script>
@@ -10,14 +11,15 @@
 
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="container">
       <!-- login form -->
       <form class="" action="trial-quiz/index.html" method="post">
         <div class="profile">
           <img src="images/student.png" alt="icon">
         </div>
         <div class="credentials">
-          <p><b>You are signing in as a STUDENT</b></p>
+          <p>You are signing in as <br> a <b>STUDENT</b></p><br>
+          <p id="kati">Enter credentials to continue...</p>
           <label for="username"><b>Student User name</b></label><br>
           <input type="text" placeholder="Enter username" name="username" required class="form-control">
           <br>

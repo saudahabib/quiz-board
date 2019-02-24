@@ -7,6 +7,9 @@ function redirect() {
 $(document).ready(function()  {
   $(".test").submit(function(event) {
     event.preventDefault();
+    function results()  {
+      window.open("index2.html", "_blank")
+    };
     var question1=  $("input:radio[name=ques1]:checked").val();
     var question2=  $("input:radio[name=ques2]:checked").val();
     var question3=  $("input:radio[name=ques3]:checked").val();

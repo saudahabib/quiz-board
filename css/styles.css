@@ -1,0 +1,37 @@
+body{
+  font-family: 'Rajdhani', serif;
+  font-size: 1.7em;
+}
+.jumbotron{
+background-image: url('http://patlin.com.my/wp-content/uploads/2017/01/geometric-wallpaper-19.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+color: white;
+
+}
+#down{
+  margin-top: 2em;
+}
+#teal{
+  background-color: #7fffd4;
+}
+
+#aqua{
+  background-color: #5dc9b6;
+}
+#turqoise{
+  background-color:#06d1ab;
+}
+#light{
+  background-color: #42e0d1;
+}
+.review{
+  font-family:'Dosis', serif;
+}
+#container{
+  background-color: black;
+  color: white;
+}
+#kati{
+  text-align: center
+}

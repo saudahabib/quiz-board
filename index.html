@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Qualfier Test</title>
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
+
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
       <script src="js/jquery-3.3.1.js"></script>
@@ -12,10 +16,29 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
+      <div class="row" id="down">
         <div class="col-md-4">
-          <h1 class="blockquote">The End-module Qualifier Test</h1>
-          <p>Hey there! You are one of the few students who make it this far in our Jacascript module, and for that, we would like to congratulate you. It is time to test just how much of JS you know, and with that, we will be able to determine whether you proceed to module 2 or not. Shine!!!</p>
+          <img src="images/truth.jpg" alt="truth" width="350px">
+          <p id="teal">Hey there! You are one of the few students who have made it this far in our Jacascript module, and for that, we would like to congratulate you! It is time to test just how much of JS you know, and with that, we will be able to determine whether you proceed to module 2 or not. Shine!!!</p>
+          <br>
+          <div class="review">
+            <h3>What's your say</h3>
+            <img src="images/sonakshi.jpeg" alt="review" width="350px" height="200px">
+            <p id="aqua"> <strong>Sonakshi Rajesh, class of '17</strong><br> For me, the qualifier test and more tests I took
+              At WIT gave me an insight of what I needed to know as
+              A JS graduate. I think it’s awesome that our knowledge is
+              tested.
+            </p>
+            <img src="images/waweru.jpeg" alt="review" width="350px">
+            <p id="turqoise"> <strong>Angelina Waweru, class of '16'</strong> <br>I love the fact that I
+              don’t have to wait for weeks before I get my results,
+              and the marking at this test site is always accurate.
+            </p>
+
+            <img src="images/tina.jpeg" alt="review" width="350px" height="200px">
+            <p id=light> <strong>Tina Nyokabi</strong> <br> I would easily recommend this test site for any institution that wishes to take up online tests as a method of examination. They never disappoint. </p>
+          </div>
+
         </div>
         <div class="col-md-8">
           <div class="jumbotron">
@@ -32,7 +55,7 @@
               </ul>
           </div>
 
-            <form class="test" name="test">
+            <form class="test" name="test" action="index2.html">
               <div class="credentials">
                 <input type="text" name="name" class="form-control" placeholder="Type your name here" id="name"><br>
                 <label for="test-date">Test-Date<input type="date" class="form-control" id="test-date"></label>

@@ -1,4 +1,9 @@
 // UI logic begins here//
+
+function redirect() {
+  window.open("index.html", "_blank")
+};
+
 $(document).ready(function()  {
   $(".test").submit(function(event) {
     event.preventDefault();

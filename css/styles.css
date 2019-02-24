@@ -30,14 +30,17 @@ color: white;
 }
 .col-md-3{
   border: 2px solid black;
-  margin-right: 20px;
+  margin-right: 40px;
+  background-color: #8ee5ee;
 }
 
 
-.col-md-8{
+#home{
+  text-align: center;
   background-image: url('https://ak3.picdn.net/shutterstock/videos/10097813/thumb/1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+
 
 }
 .row{
@@ -47,6 +50,16 @@ color: white;
   text-align: center
 }
 #maji{
-  background-color: #5dc9b6;
   margin-bottom: 52px;
+}
+
+#container{
+  font-family: 'El Messiri', serif;
+
+}
+.aswad{
+  background-color: black;
+  color: white;
+  margin-left: 75px;
+  margin-right: 75px;
 }

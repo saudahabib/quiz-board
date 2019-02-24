@@ -63,3 +63,15 @@ color: white;
   margin-left: 75px;
   margin-right: 75px;
 }
+.dashboard{
+  text-align: center;
+  padding: 1.2em;
+  background-color: #5dc9b6;
+  font-size: x-large;
+  font-family: 'Luckiest Guy', serif;
+}
+.final{
+  
+  margin-top: 20px;
+  text-align: center;
+}

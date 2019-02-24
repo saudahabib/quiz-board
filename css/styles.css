@@ -70,8 +70,12 @@ color: white;
   font-size: x-large;
   font-family: 'Luckiest Guy', serif;
 }
-.final{
-  
+#final{
   margin-top: 20px;
   text-align: center;
+}
+
+.col-md-2{
+background-image: url('https://i.gifer.com/5Q17.gif');
+margin-left: 70px;
 }

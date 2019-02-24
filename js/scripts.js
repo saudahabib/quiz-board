@@ -52,7 +52,7 @@ $(document).ready(function()  {
      else{
        analysis=1;
     };
-      var messages= ["See you in Javascript module 2", "You could do so much better", "Bruh what the hell?"]
+      var messages= ["See you in Javascript module 2", "You could do so much better", "You know you'll need a retake right?"]
       var images=["you-go.gif", "images/better.gif", "images/really.gif"]
 
           document.getElementById('results').innerHTML= "You got"+" "+marks+"% with a total of "+ rights+" "+"right questions out of 5"

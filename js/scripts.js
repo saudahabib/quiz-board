@@ -53,7 +53,7 @@ $(document).ready(function()  {
        analysis=1;
     };
       var messages= ["See you in Javascript module 2", "You could do so much better", "You know you'll need a retake right?"]
-      var images=["you-go.gif", "images/better.gif", "images/really.gif"]
+      var images=["you-go.gif", "images/best.gif", "images/really.gif"]
 
           document.getElementById('results').innerHTML= "You got"+" "+marks+"% with a total of "+ rights+" "+"right questions out of 5"
           document.getElementById('image').src= images[analysis]

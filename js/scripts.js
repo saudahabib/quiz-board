@@ -53,6 +53,7 @@ $(document).ready(function()  {
        analysis=1;
     };
       var messages= ["See you in Javascript module 2", "You could do so much better", "You know you'll need a retake right?"]
+
       var images=["you-go.gif", "images/demi.gif", "images/really.gif"]
 
           document.getElementById('results').innerHTML= "You got"+" "+marks+"% with a total of "+ rights+" "+"right questions out of 5"
@@ -60,5 +61,6 @@ $(document).ready(function()  {
           document.getElementById('analysis').innerHTML= messages[analysis]
 
 
++
     });
   });

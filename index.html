@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Trial</title>
+    <link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+
+  </head>
+  <body>
+    <div class="container" id="container">
+      <!-- login form -->
+      <div class="row">
+        <div class="col-md-3">
+          <p style="text-align:center"><b>User Status</b></p>
+          <img src="images/student.png" alt="icon">
+          <p id='maji'>Your current status:<br>You are signing in as <br> a <b>STUDENT</b> of JS module 2</p><br>
+        </div>
+        <div class="col-md-8" id="home">
+          <div class="aswad">
+          <h1>Women in Tech club</h1>
+          <img src="images/wit.png" alt="img" width="350px" height="">
+          <h3>Programming for global solutions</h3><br>
+          </div>
+          <br>
+          <h4>Hey there! Welcome to the WIT test site.</h4>
+        </div>
+      </div>
+      <form class="" action="trial-quiz/index.html" method="post">
+
+        <div class="credentials">
+          <p id="kati">Enter credentials to continue...</p>
+          <label for="username"><b>Student User name</b></label><br>
+          <input type="text" placeholder="Enter username" name="username" required class="form-control">
+          <br>
+          <label for="email"><b>Email address</b></label><br>
+          <input type="email" name="email" placeholder="Enter email address" class="form-control" required><br>
+          <button type="submit" name="login" id="submit" onclick="redirect()">Login to portal</button>
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>

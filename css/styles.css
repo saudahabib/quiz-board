@@ -3,10 +3,10 @@ body{
   font-size: 1.7em;
 }
 .jumbotron{
-background-image: url('http://patlin.com.my/wp-content/uploads/2017/01/geometric-wallpaper-19.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-color: white;
+  background-image: url('http://patlin.com.my/wp-content/uploads/2017/01/geometric-wallpaper-19.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
 
 }
 #down{
@@ -76,6 +76,6 @@ color: white;
 }
 
 .col-md-2{
-background-image: url('https://i.gifer.com/5Q17.gif');
-margin-left: 70px;
+  background-image: url('https://i.gifer.com/5Q17.gif');
+  margin-left: 70px;
 }

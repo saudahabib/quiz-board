@@ -39,7 +39,7 @@ $(document).ready(function()  {
        marks+=20;
        rights++;
      }
-     //awarding marks begins here
+     //awarding marks begins here(still business logic)
      var analysis;
      if(marks>=80) {
        analysis=0;

@@ -1,13 +1,13 @@
 // UI logic begins here//
 
 function redirect() {
-  window.open("index2.html", "_blank")
+  window.open("index1.html", "_blank")
 };
 
 $(document).ready(function()  {
   $(".test").submit(function(event) {
     event.preventDefault();
-  
+
     };
     var question1=  $("input:radio[name=ques1]:checked").val();
     var question2=  $("input:radio[name=ques2]:checked").val();
